@@ -19,7 +19,7 @@ Return true if the value of the root is equal to the sum of the values of its tw
  * }
  */
 public class solution {
-    public boolean chechkTree (TreeNode root) {
+    public boolean checkTree (TreeNode root) {
         if(root == null || root.left == null || root.right == null) {
             return false;
         }
